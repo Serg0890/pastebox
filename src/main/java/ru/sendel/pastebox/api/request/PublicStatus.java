@@ -1,4 +1,6 @@
 package ru.sendel.pastebox.api.request;
 
-public class PublicStatus {
+public enum PublicStatus {
+    PUBLIC,
+    UNLISTED
 }
